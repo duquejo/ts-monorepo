@@ -1,0 +1,14 @@
+{
+  "name": "@monorepo/monorepo",
+  "version": "1.0.0",
+  "description": "A sample",
+  "main": "index.js",
+  "scripts": {
+    "build": "pnpm --stream -r run build",
+    "clean": "pnpm -r run clean",
+    "dev": "pnpm --stream -r run dev"
+  },
+  "keywords": [],
+  "author": "José Duque",
+  "license": "MIT"
+}

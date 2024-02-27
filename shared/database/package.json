@@ -1,0 +1,19 @@
+{
+  "name": "@monorepo/database",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "description": "A code library for client database",
+  "author": "José Duque",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rm -rf build tsconfig.tsbuildinfo",
+    "build": "tsc --incremental"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.20",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "ioredis": "^5.3.2"
+  }
+}
